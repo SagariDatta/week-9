@@ -4,8 +4,19 @@
 
 ## Updating your local environment
 
-There are a few new packages we'll need for web scraping this week so we'll need
-to update your Python environment. The `environment.yml` in this repository
+There is one new package we'll need this week so we'll need
+to update your Python environment. 
+
+### Option 1
+From the Anaconda Prompt or Terminal, run
+
+```
+conda activate musa-620
+conda install -c conda-forge scikit-learn
+```
+
+### Option 2
+The `environment.yml` in this repository
 contains all of the necessary packages. To update your local environment:
 
 **Step 1.** Download the `environment.yml` file in this repository to your computer.
